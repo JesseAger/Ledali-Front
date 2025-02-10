@@ -1,1 +1,13 @@
 node_modules
+# Ignore images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Ignore API keys and secrets
+.env
+config.json
+secrets.json
+apikeys.txt
