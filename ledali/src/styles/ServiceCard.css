@@ -1,0 +1,35 @@
+/* src/styles/ServiceCard.css */
+
+.service-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card img {
+    max-width: 100%;
+    height: 150px;
+    /* object-fit: cover; */
+    width: 150px;
+  }
+  
+  .service-card h3 {
+    margin: 10px 0;
+    color: #004080; /* Blue theme color */
+  }
+  
+  .service-card p {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  

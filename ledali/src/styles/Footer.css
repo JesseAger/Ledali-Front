@@ -1,0 +1,173 @@
+
+.foot-content{
+  display: flex;
+  background-color: hsl(210, 67%, 54%);
+  width: 100%;
+  left: 0px;
+  position: absolute;
+  height: auto;
+padding-bottom: 10px;
+margin-bottom: 10px;
+}
+
+.foot-state{
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: left;
+  width: 40%;
+  padding-left: 20px;
+  line-height: 1.5;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.quick-links{
+  position: absolute;
+  left:  35%;
+}
+
+.help-box{
+  padding: 40px 0px 30px 0px;
+  color: #fff;
+  font-size: large;
+  border-radius: 5px;
+  background-color: #004080;
+  text-align: center;
+  box-shadow: -8px 8px 12px rgba(0, 0, 0, 0.5);
+  width: 180px;
+}
+
+.help-div{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.ledali-head{
+  padding-left: 20px;
+}
+
+.quick-header{
+  padding-left: 35px;
+}
+
+.footer-links{
+  list-style: none;
+  margin-bottom: 30px;
+  margin-right: 90px;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.footer-links li a{
+  color: #000; 
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #fff; 
+  /* transition: all 0.3s ease; */
+  text-decoration: none; 
+  box-shadow: -8px 8px 12px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+}
+
+.footer-links :hover{
+ color: #004080;
+ border-radius: 5px;
+ width: initial;
+ height: initial;
+ transform: none;
+}
+
+.footer-email{
+  background-color: #004080;
+  color: #000;
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px ;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 50px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-email li :hover{
+  background-color: #999;
+}
+
+.email-div{
+  padding: 30px;
+}
+
+.quick-header{
+  left: 50%;
+}
+
+.foot-input{
+  padding:10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+.foot-input :hover{
+  border-color: #aaa;
+}
+
+.foot-input :focus{
+  outline: none;
+  border-color: #4CAF50;
+}
+
+::placeholder{
+  color: #999;
+}
+
+.foot-but{
+  background-color: #004090;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.foot-but:hover{
+background-color: #0073e6;
+}
+
+.foot-location{
+  background-color: #004080;
+  color: #000;
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px ;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 50px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.location-div{
+  margin-top: 163px;
+}
+
+.news-form{
+  line-height: 1.5;
+}
+
+.newsletter{
+  padding-right: 20px;
+  margin-right: 20px;
+
+}
